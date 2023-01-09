@@ -43,6 +43,7 @@ def search(url, wordlist):
   # Inisialisasi tabel
   table = PrettyTable()
   table.field_names = ['Path', 'Status Code', 'Description']
+  table.title = "Result Found!" 
 
   # Iterasi melalui setiap baris dalam wordlist
   for line in lines:
